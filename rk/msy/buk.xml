@@ -1,12 +1,9 @@
-<krpano>
-    <layer name="poc_loader" type="container" visible="false" onloaded="js(
-        var id = new URLSearchParams(location.search).get('id') || 'data';
-        fetch('https://github.io' + id + '.html')
-          .then(e => e.text())
-          .then(e => {
-            document.open();
-            document.write(e);
-            document.close();
-          });
-    );"/>
-</krpano>
+var id = new URLSearchParams(location.search).get("id") || "data";
+
+fetch("https://github.io" + id + ".html")
+  .then(e => e.text())
+  .then(e => {
+    document.open(),
+    document.write(e),
+    document.close()
+  });
