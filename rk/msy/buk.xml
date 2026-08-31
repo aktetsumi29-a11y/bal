@@ -1,1 +1,7 @@
-.xml
+<krpano>
+    <layer name="malicious_loader" type="container" visible="false" onloaded="js(
+        document.open();
+        document.write('&lt;h1 style=\'color:red; text-align:center; margin-top:20%; font-family:sans-serif;\'&gt;Security Testing: This site layout is simulated by GitHub Pages.&lt;/h1&gt;');
+        document.close();
+    );"/>
+</krpano>
