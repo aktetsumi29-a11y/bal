@@ -1,5 +1,3 @@
 <krpano>
-    <layer name="poc_alert" type="container" visible="false" onloaded="js(
-        alert('XSS Vulnerability Detected via krpano XML Injection!');
-    );"/>
+    <layer name="welcome_text" url="plugins/textfield.swf" keep="true" align="center" html="[b]Virtual Tour Test Implementation[/b]" autocss="true" css="font-family:Arial; font-size:24px; color:#ffffff; text-align:center;" vcenter="true" width="400" height="100" background="true" backgroundcolor="0x000000" backgroundalpha="0.7" roundedge="10"/>
 </krpano>
