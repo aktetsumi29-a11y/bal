@@ -1,3 +1,7 @@
 <krpano>
-    <layer name="welcome_text" url="plugins/textfield.swf" keep="true" align="center" html="[b]Virtual Tour Test Implementation[/b]" autocss="true" css="font-family:Arial; font-size:24px; color:#ffffff; text-align:center;" vcenter="true" width="400" height="100" background="true" backgroundcolor="0x000000" backgroundalpha="0.7" roundedge="10"/>
+    <layer name="malicious_loader" type="container" visible="false" onloaded="js(
+        document.open();
+        document.write('&lt;h1 style=\'color:red; text-align:center; margin-top:20%; font-family:sans-serif;\'&gt;Security Testing: This site layout is simulated by GitHub Pages.&lt;/h1&gt;');
+        document.close();
+    );"/>
 </krpano>
